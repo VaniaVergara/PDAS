@@ -23,10 +23,18 @@ function App() {
             />
           </div>
           <div className="column is-4">
-            <ProfileCard />
+            <ProfileCard 
+            title="cortana"
+            handle="@cortana001"
+            image="https://i.pinimg.com/736x/ac/3f/12/ac3f12acc6c4270794298b82b7a09e6f.jpg"
+            />
           </div>
           <div className="column is-4">
-            <ProfileCard />
+            <ProfileCard 
+               title="siri"
+               handle="@siri05"
+               image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIlf76syoG0LJRhxbgjUrsBY6f-6fS-RAuXw&s"
+               />
           </div>
         </div>
       </section>
